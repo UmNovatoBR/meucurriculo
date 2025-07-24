@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<div id="qrcode"></div>
 <head>
   <meta charset="UTF-8">
   <title>Currículo – Vitor Loureiro de Azevedo</title>
@@ -10,6 +9,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <!-- nova seção dentro da seção de informações -->
+  <div class="section">
+    <h2><span>🔗</span> Acesso Rápido</h2>
+    <p>Visualize, compartilhe ou escaneie para acessar meu currículo e projetos online:</p>
+    <div id="qrcode" style="margin: 20px 0;"></div>
+  </div>
+
     <!-- Logo após o <body> -->
   <script>
     new QRCode(document.getElementById("qrcode"), {
@@ -115,14 +121,6 @@
       <p>Disponível para viagens e mudanças</p>
       <p>Estado civil: Solteiro | Idade: 25 anos</p>
     </div>
-
-    <!-- nova seção dentro da seção de informações -->
-<div class="section">
-  <h2><span>🔗</span> Acesso Rápido</h2>
-  <p>Visualize, compartilhe ou escaneie para acessar meu currículo e projetos online:</p>
-  <div id="qrcode" style="margin: 20px 0;"></div>
-</div>
-
   </div>
 </body>
 </html>
