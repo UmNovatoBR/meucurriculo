@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo – Vitor Loureiro de Azevedo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <!-- versão estendida e otimizada -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- nova seção dentro da seção de informações -->
+  <div class="section">
+    <h2><span>🔗</span> Acesso Rápido</h2>
+    <p>Visualize, compartilhe ou escaneie para acessar meu currículo e projetos online:</p>
+    <div id="qrcode" style="margin: 20px 0;"></div>
+  </div>
+
+    <!-- Logo após o <body> -->
+  <script>
+    new QRCode(document.getElementById("qrcode"), {
+      text: "https://google.com", // Meu perfil!
+      width: 128,
+      height: 128,
+      colorDark: "#000000",
+      colorLight: "#ffffff",
+      correctLevel: QRCode.CorrectLevel.H
+    });
+  </script>
+
+  <div class="container">
+
+    <div class="header">
+      <div>
+        <h1>Vitor Loureiro de Azevedo</h1>
+        <p>Cursando Análise e Desenvolvimento de Sistemas – Estácio (2024-2027)</p>
+        <p>Formação em NodeJS, ReactJS, HTML5, CSS3 e SQL – Escola DNC</p>
+      </div>
+      <div class="contact">
+        <p>📍 Belém – PA</p>
+        <p>📱 (91) 98166-6634 / (91) 98849-6116</p>
+        <p>✉️ victorazevedo1320@gmail.com</p>
+        <p>📸 @Vitinow_db</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2><span>📝</span> Resumo Profissional</h2>
+      <p>Profissional de TI com mais de 5 anos de experiência em rotinas administrativas e suporte técnico. Especialista em identificar gargalos em processos digitais e propor automações eficientes usando NodeJS e SQL. Apaixonado por construir interfaces responsivas com ReactJS e otimizar consultas em bancos de dados relacionais.</p>
+    </div>
+
+    <div class="section">
+      <h2><span>💼</span> Experiência Profissional</h2>
+      <ul>
+        <li><strong>Asas de Mulher LTDA</strong> – Recepcionista (Nov/2023 – Fev/2025)</li>
+        <li><strong>Regina Comércio Ltda</strong> – Aux. Administrativo e Suporte TI (Jul/2023 – Ago/2023)</li>
+        <li><strong>Eletromóveis</strong> – Assistente Administrativo (Mar/2022 – Fev/2023)</li>
+        <li><strong>Banpará</strong> – Menor Aprendiz (Ago/2016 – Ago/2018)</li>
+      </ul>
+    </div>
+
+    <!-- ... código anterior do currículo ... -->
+
+    <div class="section">
+      <h2><span>📊</span> Distribuição de Atuação</h2>
+      <div style="display:flex; align-items:center;">
+        <svg viewBox="0 0 140 140" class="pie-chart">
+          <circle class="bg"/>
+          <circle class="admin" style="stroke: #00e676; stroke-dasharray: 50 50;"/>
+          <circle class="support" style="stroke: #00bfa5; stroke-dasharray: 30 70; stroke-dashoffset: 50;"/>
+          <circle class="infra" style="stroke: #ff9100; stroke-dasharray: 20 80; stroke-dashoffset: 80;"/>
+        </svg>
+        <div class="legend">
+          <p><span style="background: #00e676"></span> Administrativo – 50%</p>
+          <p><span style="background: #00bfa5"></span> Suporte Técnico – 30%</p>
+          <p><span style="background: #ff9100"></span> Redes e Infraestrutura – 20%</p>
+        </div>
+      </div>
+    </div>
+
+  <div class="section">
+    <h2><span>🖥️</span> Sistemas e Infraestrutura</h2>
+    <ul>
+      <li>Manutenção preventiva e corretiva de redes locais e periféricos</li>
+      <li>Instalação e configuração de redes de computadores (LAN)</li>
+      <li>Gestão de sistemas internos de automação comercial</li>
+      <li>Experiência com Help Desk, Service Desk e arquitetura de computadores</li>
+    </ul>
+  </div>
+
+    <div class="section">
+      <h2><span>🛠️</span> Hard Skills</h2>
+      <ul>
+        <li>HTML5 / CSS3 – 95% <span class="stars">★★★★★</span></li>
+        <li>JavaScript – 85% <span class="stars">★★★★☆</span></li>
+        <li>ReactJS – 75% <span class="stars">★★★☆☆</span></li>
+        <li>NodeJS – 70% <span class="stars">★★★☆☆</span></li>
+        <li>SQL – 80% <span class="stars">★★★★☆</span></li>
+        <li>Git / GitHub – 80% <span class="stars">★★★★☆</span></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span>🤝</span> Soft Skills</h2>
+      <ul>
+        <li>Comunicação Interpessoal – 90% <span class="stars">★★★★☆</span></li>
+        <li>Trabalho em Equipe – 100% <span class="stars">★★★★★</span></li>
+        <li>Resolução de Problemas – 85% <span class="stars">★★★★☆</span></li>
+        <li>Adaptabilidade – 85% <span class="stars">★★★★☆</span></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span>🎓</span> Educação</h2>
+      <p>Graduação em Análise e Desenvolvimento de Sistemas<br>Estácio do Pará (Mar/2024 – Set/2027)</p>
+      <p>Ensino Médio – ENCCEJA</p>
+    </div>
+
+    <div class="section">
+      <h2><span>📁</span> Informações Adicionais</h2>
+      <p>Disponível para viagens e mudanças</p>
+      <p>Estado civil: Solteiro | Idade: 25 anos</p>
+    </div>
+  </div>
+</body>
+</html>
