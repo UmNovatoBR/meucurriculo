@@ -16,18 +16,6 @@
     <div id="qrcode" style="margin: 20px 0;"></div>
   </div>
 
-    <!-- Logo após o <body> -->
-  <script>
-    new QRCode(document.getElementById("qrcode"), {
-      text: "https://google.com", // Meu perfil!
-      width: 128,
-      height: 128,
-      colorDark: "#000000",
-      colorLight: "#ffffff",
-      correctLevel: QRCode.CorrectLevel.H
-    });
-  </script>
-
   <div class="container">
 
     <div class="header">
@@ -123,5 +111,15 @@
       <p>Estado civil: Solteiro | Idade: 25 anos</p>
     </div>
   </div>
+  <script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: "https://github.com/UmNovatoBR", // Altere para o link desejado
+    width: 128,
+    height: 128,
+    colorDark: "#00bfa5",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
+  });
+</script>
 </body>
 </html>
